@@ -25,19 +25,146 @@ margin: 0;
     display: inline-block;
 }
 
-/* Search Bae */
+/* Search Bar */
 
 #search-container {
 border: 1px solid #b3b3b3;
 margin: 15px auto;
-width: 400px;
+width: 554px;
 border-radius: 3px;
 box-shadow: 1px 1px 1px #b3b3b3;
 }
 
 #search-bar {
-    width: 350px;
-    height: 35px;
+    width: 448px;
+    height: 34px;
     border: none;
     font-size: 1em;
+}
+
+#search-conatiner:hover {
+    box-shadow: 2px 4px 4px #b3b3b3;
+
+}
+#voice-control {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+/* Submit Button */
+
+#sub-btn {
+    margin: 25px;
+}
+
+#sub-btn input {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #F2F2F2;
+    border-radius: 2px;
+    font-weight: bold;
+    color: #757575;
+}
+
+#sub-btn input:hover {
+    border: 1px solid #757575
+}
+
+/*Header & Footer */
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 15px;
+}
+
+ul li {
+    display: inline-block;
+    margin: 5px 10px;
+}
+
+ul li a:link {
+    text-decoration: none;
+}
+
+ul li a:hover {
+text-decoration: underline;
+}
+
+nav ul li a:active {
+    color: #000;
+}
+
+ul li a:visited {
+    color: #000;
+}
+
+footer ul li a:active {
+    color: #F00
+}
+
+.r-link {
+    float:right;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: #F2F2F2;
+}
+
+footer ul {
+    margin: 7px 15px;
+}
+
+/* Google App */
+.g-app {
+    height: 15px;
+    width: 15px;
+    opacity: 0.75;
+}
+
+.g-app:hover {
+    opacity: 1;
+}
+
+/* Sign in */
+#sign-in {
+    background-color: blue;
+    color: #FFF;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#sign-in:hover {
+    text-decoration: none;
+}
+
+#sign-in:active {
+    background-color: rgb(0, 0, 156);
+    border-top: 2px solid rgb(0, 0, 77)
+}
+
+#location {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    height: 40px;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+#fbar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
 }
